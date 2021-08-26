@@ -1,0 +1,13 @@
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 24;
+
+}
+.nav-list li {
+    margin-right: 15px;
+}
+a.current {
+    font-weight: bold;
+    color: brown;
+} 
