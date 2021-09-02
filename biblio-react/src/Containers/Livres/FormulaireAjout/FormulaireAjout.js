@@ -84,14 +84,14 @@ export default  withFormik({
     validationSchema : Yup.object().shape({
         titre : Yup.string()
         .min(3 , 'Le titre doit contenir au moins 3 caractères !')
-        .max(20 , "Le titre doit contenir moins de 20 caractères !")
+        .max(500 , "Le titre doit contenir moins de 500 caractères !")
         .required("le titre est obligatoire") ,
         auteur : Yup.string()
         .min(3 , 'L\'Auteur doit contenir au moins 3 caractères !')
-        .max(20 , "L'Auteur doit contenir moins de 20 caractères !")
+        .max(150 , "L'Auteur doit contenir moins de 20 caractères !")
         .required("L'auteur est obligatoire") ,
         nbPages : Yup.number()
-        .lessThan(1000 , 'Nombre de page doit etre inférieur à 1000 !')
+        .lessThan(5000 , 'Nombre de page doit etre inférieur à 1000 !')
         .moreThan(50 ,'Nombre de page doit etre supérieur à 50 !' )
         .required("le nombre de page est obligatoire")
 

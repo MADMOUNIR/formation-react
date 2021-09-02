@@ -1,0 +1,31 @@
+{
+  "biblio": {
+    "livres": [
+      {
+        "id": 1,
+        "titre": "Algorithme H2MPL",
+        "auteur": "Mathieu Gaston",
+        "nbPages": 65
+      },
+      {
+        "id": 2,
+        "titre": "Histoire de la France",
+        "auteur": "Franck Gérard",
+        "nbPages": 500
+      },
+      {
+        "id": 3,
+        "titre": "Le Mode de l'aliment",
+        "auteur": "Hinrique Hya",
+        "nbPages": 654
+      },
+      {
+        "id": 4,
+        "titre": "l'asie du 19eme siecle",
+        "auteur": "Maxime Piron",
+        "nbPages": 654
+      }
+    ],
+    "lastIdLivre": 4
+  }
+}
